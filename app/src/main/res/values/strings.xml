@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ListagemLivros</string>
+    <string name="cadastrar_livro">Cadastrar Livro</string>
+    <string name="titulo_do_livro">Título do livro</string>
+    <string name="autor_do_livro">Autor do livro</string>
+    <string name="categoria_do_livro">Categoria do livro</string>
+    <string name="cadastrar">Cadastrar</string>
+</resources>

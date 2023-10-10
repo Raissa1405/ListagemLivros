@@ -1,0 +1,32 @@
+<!-- res/layout/activity_cadastro_livro.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/titulo_do_livro" />
+
+    <EditText
+        android:id="@+id/etAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/autor_do_livro" />
+
+    <EditText
+        android:id="@+id/etCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/categoria_do_livro" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar" />
+
+</LinearLayout>
